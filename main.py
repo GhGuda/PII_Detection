@@ -5,7 +5,7 @@ Main entry point for the PII Detection & Data Quality Pipeline.
 import sys
 from src.pipeline import run_load_stage
 from src.logger import setup_logger
-
+from src.pipeline import run_profiling_stage
 logger = setup_logger(__name__)
 
 
@@ -15,7 +15,8 @@ def main():
     """
 
     try:
-        run_load_stage()
+        df = run_load_stage()
+        run_profiling_stage(df)
 
     except Exception as e:
         logger.critical(f"Pipeline failed: {e}")

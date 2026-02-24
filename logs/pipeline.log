@@ -1,0 +1,6 @@
+2026-02-24 15:06:10,369 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 15:06:10,370 | ERROR | src.loader | Error loading file (Attempt 1): module 'signal' has no attribute 'SIGALRM'
+2026-02-24 15:06:12,372 | ERROR | src.loader | Error loading file (Attempt 2): module 'signal' has no attribute 'SIGALRM'
+2026-02-24 15:06:16,374 | ERROR | src.loader | Error loading file (Attempt 3): module 'signal' has no attribute 'SIGALRM'
+2026-02-24 15:06:16,374 | CRITICAL | src.loader | Max retries reached. Aborting load.
+2026-02-24 15:06:16,374 | CRITICAL | __main__ | Pipeline failed: module 'signal' has no attribute 'SIGALRM'

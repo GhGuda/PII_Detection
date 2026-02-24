@@ -1,0 +1,66 @@
+VALIDATION RESULTS
+==================
+
+PASS: -36 rows passed all checks
+FAIL: 46 validation failures
+
+FAILURES BY COLUMN:
+-------------------
+
+first_name:
+- Row 0: Must be alphabetic and non-null
+- Row 1: Must be alphabetic and non-null
+- Row 2: Must be alphabetic and non-null
+- Row 3: Must be alphabetic and non-null
+- Row 4: Must be alphabetic and non-null
+- Row 5: Must be alphabetic and non-null
+- Row 6: Must be alphabetic and non-null
+- Row 7: Must be alphabetic and non-null
+- Row 8: Must be alphabetic and non-null
+- Row 9: Must be alphabetic and non-null
+
+last_name:
+- Row 0: Must be alphabetic and non-null
+- Row 1: Must be alphabetic and non-null
+- Row 2: Must be alphabetic and non-null
+- Row 3: Must be alphabetic and non-null
+- Row 4: Must be alphabetic and non-null
+- Row 5: Must be alphabetic and non-null
+- Row 6: Must be alphabetic and non-null
+- Row 7: Must be alphabetic and non-null
+- Row 8: Must be alphabetic and non-null
+- Row 9: Must be alphabetic and non-null
+
+date_of_birth:
+- Row 1: Invalid date format (YYYY-MM-DD required)
+- Row 3: Invalid date format (YYYY-MM-DD required)
+- Row 5: Invalid date format (YYYY-MM-DD required)
+- Row 6: Invalid date format (YYYY-MM-DD required)
+- Row 7: Invalid date format (YYYY-MM-DD required)
+- Row 8: Invalid date format (YYYY-MM-DD required)
+- Row 9: Invalid date format (YYYY-MM-DD required)
+
+created_date:
+- Row 0: Invalid date format (YYYY-MM-DD required)
+- Row 2: Invalid date format (YYYY-MM-DD required)
+- Row 4: Invalid date format (YYYY-MM-DD required)
+- Row 5: Invalid date format (YYYY-MM-DD required)
+- Row 6: Invalid date format (YYYY-MM-DD required)
+- Row 7: Invalid date format (YYYY-MM-DD required)
+- Row 8: Invalid date format (YYYY-MM-DD required)
+- Row 9: Invalid date format (YYYY-MM-DD required)
+
+account_status:
+- Row 0: Invalid status value
+- Row 1: Invalid status value
+- Row 2: Invalid status value
+- Row 3: Invalid status value
+- Row 4: Invalid status value
+- Row 5: Invalid status value
+- Row 6: Invalid status value
+- Row 7: Invalid status value
+- Row 8: Invalid status value
+- Row 9: Invalid status value
+
+income:
+- Row 1: Income must be numeric

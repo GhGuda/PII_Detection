@@ -76,3 +76,14 @@
 2026-02-24 16:08:17,701 | INFO | src.pipeline | Stage 1: LOAD completed successfully
 2026-02-24 16:08:17,702 | INFO | src.profiler | Stage 2: Profiling started
 2026-02-24 16:08:17,737 | INFO | src.profiler | Stage 2: Profiling completed successfully
+2026-02-24 16:20:42,595 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 16:20:42,596 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 16:20:42,596 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 16:20:42,627 | WARNING | src.loader | Normalized CSV column names by trimming whitespace.
+2026-02-24 16:20:42,628 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 16:20:42,628 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 16:20:42,629 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 16:20:42,667 | INFO | src.profiler | Stage 2: Profiling completed successfully
+2026-02-24 16:20:42,669 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 16:20:42,679 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 16:20:42,682 | INFO | src.validator | Validation report generated

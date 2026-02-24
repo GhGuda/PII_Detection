@@ -1,0 +1,11 @@
+customer_id,first_name,last_name,email,phone,date_of_birth,address,income,account_status,created_date
+1, ***, ***, ***@gmail.com,***-***-4567,1985-**-**,[MASKED ADDRESS],75000, active,2024-01-10
+2, ***, ***,j***@company.com,***-***-6543,1990-**-**,[MASKED ADDRESS], active, 2024-01-11,
+3,[UNKNOWN], ***, ***@email.com,***-***-5678,1988-**-**,[MASKED ADDRESS],0, suspended,2024-01-12
+4, ***, ***,m***@gmail.com,***-***-6789,1975-**-**,[MASKED ADDRESS], 120000,unknown,2024-01-13
+5, ***,[UNKNOWN], ***@yahoo.com,***-***-7890,2005-**-**,[MASKED ADDRESS], 55000, active,2024-01-15
+6, ***, ***, ***@GMAIL.COM,***-***-8901, invalid_date-**-**,[MASKED ADDRESS],82000, active,2024-01-16
+7, ***, ***, ***@work.com,***-***-9012,1992-**-**,[MASKED ADDRESS],98000, active,2024-01-17
+8, ***, ***, ***@gmail.com,***-***-0123,1968-**-**,[MASKED ADDRESS], 105000, inactive,2024-01-18
+9, ***, ***, ***@hotmail.com,***-***-0123,1958-**-**,[MASKED ADDRESS],110000, active,2024-01-19
+10, ***, ***, ***@company.net,***-***-1234,1970-**-**,[MASKED ADDRESS],88000, active, invalid_date

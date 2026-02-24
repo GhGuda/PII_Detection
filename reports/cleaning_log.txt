@@ -1,0 +1,23 @@
+DATA CLEANING LOG
+=================
+
+ACTIONS TAKEN:
+--------------
+Normalization:
+- Phone format: Converted 4 formats -> XXX-XXX-XXXX (8 rows affected)
+- Date format: Converted 2 formats -> YYYY-MM-DD (14 rows affected)
+- Name case: Applied title case to  wilson (1 row affected)
+
+Missing Values:
+- first_name: 1 row missing -> filled with '[UNKNOWN]'
+- last_name: 1 row missing -> filled with '[UNKNOWN]'
+- address: 1 row missing -> filled with '[UNKNOWN]'
+- income: 1 row missing -> filled with '0'
+- account_status: 1 row missing -> filled with 'unknown'
+
+Validation After Cleaning:
+- Before: 46 rows failed
+- After: 33 rows failed
+- Status: FAIL
+
+Output: customers_cleaned.csv (10 rows, 10 columns)

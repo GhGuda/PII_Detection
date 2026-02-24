@@ -1,0 +1,37 @@
+PIPELINE EXECUTION REPORT
+=========================
+Timestamp: 2026-02-24 23:16:26
+
+Stage 1: LOAD
+[OK] Loaded customers_raw.csv
+- 10 rows, 10 columns
+
+Stage 2: PROFILING
+[OK] Data quality report generated
+
+Stage 3: VALIDATE
+[OK] Validation completed (46 failures detected)
+
+Stage 4: CLEAN
+[OK] Data normalized and missing values handled
+- Failures before cleaning: 46
+- Failures after cleaning: 33
+
+Stage 4: DETECT PII
+✓ PII detection report generated
+
+Stage 6: SAVE
+[OK] Saved outputs:
+- customers_cleaned.csv
+- customers_masked.csv
+- data_quality_report.txt
+- validation_results.txt
+- cleaning_log.txt
+- masked_sample.txt
+
+SUMMARY:
+- Input: 10 rows (raw)
+- Output: 10 rows (clean and masked)
+- Quality: FAIL
+- PII Risk: MITIGATED (all masked)
+Status: COMPLETED WITH WARNINGS

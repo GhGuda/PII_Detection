@@ -1,0 +1,20 @@
+PII DETECTION REPORT
+======================
+
+RISK ASSESSMENT:
+- HIGH: Names, emails, phone numbers, addresses, dates of birth
+- MEDIUM: Income (financial sensitivity)
+
+DETECTED PII:
+- Emails found: 2 (20%)
+- Phone numbers found: 10 (100%)
+- Addresses found: 9 (90%)
+- Dates of birth found: 10 (100%)
+
+EXPOSURE RISK:
+If this dataset were breached, attackers could:
+- Phish customers (have emails)
+- Spoof identities (have names + DOB + address)
+- Social engineer (have phone numbers)
+
+MITIGATION: Mask all PII before sharing with analytics teams

@@ -87,3 +87,161 @@
 2026-02-24 16:20:42,669 | INFO | src.validator | Stage 3: Validation started
 2026-02-24 16:20:42,679 | INFO | src.validator | Stage 3: Validation completed
 2026-02-24 16:20:42,682 | INFO | src.validator | Validation report generated
+2026-02-24 22:03:25,175 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 22:03:25,184 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 22:03:25,189 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 22:03:25,491 | WARNING | src.loader | Normalized CSV column names by trimming whitespace.
+2026-02-24 22:03:25,497 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 22:03:25,499 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 22:03:25,543 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 22:03:26,259 | INFO | src.profiler | Stage 2: Profiling completed successfully
+2026-02-24 22:03:27,018 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:03:27,383 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:03:27,539 | INFO | src.validator | Validation report generated
+2026-02-24 22:03:27,605 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:03:27,680 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:03:27,701 | INFO | src.cleaner | Stage 4: Cleaning started
+2026-02-24 22:03:27,948 | INFO | src.cleaner | Stage 4: Cleaning completed
+2026-02-24 22:03:27,951 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:03:27,993 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:03:28,022 | INFO | src.cleaner | Cleaning log generated
+2026-02-24 22:15:46,290 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 22:15:46,293 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 22:15:46,295 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 22:15:46,402 | WARNING | src.loader | Normalized CSV column names by trimming whitespace.
+2026-02-24 22:15:46,404 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 22:15:46,405 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 22:15:46,409 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 22:15:46,652 | INFO | src.profiler | Stage 2: Profiling completed successfully
+2026-02-24 22:15:46,658 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:15:46,677 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:15:46,687 | INFO | src.validator | Validation report generated
+2026-02-24 22:15:46,691 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:15:46,705 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:15:46,706 | INFO | src.cleaner | Stage 4: Cleaning started
+2026-02-24 22:15:46,837 | INFO | src.cleaner | Stage 4: Cleaning completed
+2026-02-24 22:15:46,838 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:15:46,867 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:15:46,894 | INFO | src.cleaner | Cleaning log generated successfully
+2026-02-24 22:32:17,433 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 22:32:17,435 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 22:32:17,436 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 22:32:17,525 | WARNING | src.loader | Normalized CSV column names by trimming whitespace.
+2026-02-24 22:32:17,527 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 22:32:17,529 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 22:32:17,531 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 22:32:17,677 | INFO | src.profiler | Stage 2: Profiling completed successfully
+2026-02-24 22:32:17,683 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:32:17,707 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:32:17,721 | INFO | src.validator | Validation report generated
+2026-02-24 22:32:17,724 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:32:17,741 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:32:17,743 | INFO | src.cleaner | Stage 4: Cleaning started
+2026-02-24 22:32:17,858 | INFO | src.cleaner | Stage 4: Cleaning completed
+2026-02-24 22:32:17,859 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:32:17,885 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:32:17,907 | INFO | src.cleaner | Cleaning log generated successfully
+2026-02-24 22:32:17,910 | INFO | src.masker | Stage 5: Masking started
+2026-02-24 22:32:17,942 | INFO | src.masker | Stage 5: Masking completed
+2026-02-24 22:32:18,035 | INFO | src.masker | Masked sample report generated
+2026-02-24 22:44:52,693 | INFO | src.orchestrator | Pipeline execution started
+2026-02-24 22:44:52,697 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 22:44:52,700 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 22:44:52,701 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 22:44:52,909 | WARNING | src.loader | Normalized CSV column names by trimming whitespace.
+2026-02-24 22:44:52,912 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 22:44:52,914 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 22:44:52,917 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 22:44:53,162 | INFO | src.profiler | Stage 2: Profiling completed successfully
+2026-02-24 22:44:53,175 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:44:53,216 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:44:53,219 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:44:53,252 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:44:53,255 | INFO | src.cleaner | Stage 4: Cleaning started
+2026-02-24 22:44:53,396 | INFO | src.cleaner | Stage 4: Cleaning completed
+2026-02-24 22:44:53,399 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:44:53,429 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:44:53,463 | INFO | src.cleaner | Cleaning log generated successfully
+2026-02-24 22:44:53,466 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:44:53,496 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:44:53,497 | INFO | src.masker | Stage 5: Masking started
+2026-02-24 22:44:53,513 | INFO | src.masker | Stage 5: Masking completed
+2026-02-24 22:44:53,578 | INFO | src.masker | Masked sample report generated
+2026-02-24 22:55:40,390 | INFO | src.orchestrator | Pipeline execution started
+2026-02-24 22:55:40,396 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 22:55:40,404 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 22:55:40,406 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 22:55:40,448 | WARNING | src.loader | Normalized CSV column names by trimming whitespace.
+2026-02-24 22:55:40,451 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 22:55:40,453 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 22:55:40,456 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 22:55:40,761 | INFO | src.profiler | Stage 2: Profiling completed successfully
+2026-02-24 22:55:40,769 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:55:40,806 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:55:40,809 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:55:40,833 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:55:40,836 | INFO | src.cleaner | Stage 4: Cleaning started
+2026-02-24 22:55:40,995 | INFO | src.cleaner | Stage 4: Cleaning completed
+2026-02-24 22:55:41,002 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:55:41,043 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:55:41,089 | INFO | src.cleaner | Cleaning log generated successfully
+2026-02-24 22:55:41,092 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:55:41,122 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:55:41,125 | INFO | src.masker | Stage 5: Masking started
+2026-02-24 22:55:41,144 | INFO | src.masker | Stage 5: Masking completed
+2026-02-24 22:55:41,189 | INFO | src.masker | Masked sample report generated
+2026-02-24 22:55:41,198 | INFO | src.orchestrator | Pipeline execution report generated
+2026-02-24 22:55:41,202 | INFO | src.orchestrator | Pipeline execution completed
+2026-02-24 22:58:21,825 | INFO | src.orchestrator | Pipeline execution started
+2026-02-24 22:58:21,828 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 22:58:21,832 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 22:58:21,838 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 22:58:21,873 | WARNING | src.loader | Normalized CSV column names by trimming whitespace.
+2026-02-24 22:58:21,876 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 22:58:21,878 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 22:58:21,879 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 22:58:22,036 | INFO | src.profiler | Stage 2: Profiling completed successfully
+2026-02-24 22:58:22,038 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:58:22,082 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:58:22,086 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:58:22,109 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:58:22,111 | INFO | src.cleaner | Stage 4: Cleaning started
+2026-02-24 22:58:22,260 | INFO | src.cleaner | Stage 4: Cleaning completed
+2026-02-24 22:58:22,262 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:58:22,302 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:58:22,330 | INFO | src.cleaner | Cleaning log generated successfully
+2026-02-24 22:58:22,331 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 22:58:22,351 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 22:58:22,352 | INFO | src.masker | Stage 5: Masking started
+2026-02-24 22:58:22,366 | INFO | src.masker | Stage 5: Masking completed
+2026-02-24 22:58:22,403 | INFO | src.masker | Masked sample report generated
+2026-02-24 22:58:22,411 | INFO | src.orchestrator | Pipeline execution report generated
+2026-02-24 22:58:22,412 | INFO | src.orchestrator | Pipeline execution completed
+2026-02-24 23:16:26,190 | INFO | src.orchestrator | Pipeline execution started
+2026-02-24 23:16:26,196 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 23:16:26,204 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 23:16:26,206 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 23:16:26,247 | WARNING | src.loader | Normalized CSV column names by trimming whitespace.
+2026-02-24 23:16:26,251 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 23:16:26,253 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 23:16:26,257 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 23:16:26,757 | INFO | src.profiler | Stage 2: Profiling completed successfully
+2026-02-24 23:16:26,870 | INFO | src.pii_detector | PII detection started
+2026-02-24 23:16:27,167 | INFO | src.pii_detector | PII detection completed
+2026-02-24 23:16:27,183 | INFO | src.pii_detector | PII detection report generated
+2026-02-24 23:16:27,554 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 23:16:27,723 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 23:16:27,728 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 23:16:27,786 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 23:16:27,788 | INFO | src.cleaner | Stage 4: Cleaning started
+2026-02-24 23:16:28,021 | INFO | src.cleaner | Stage 4: Cleaning completed
+2026-02-24 23:16:28,024 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 23:16:28,061 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 23:16:28,396 | INFO | src.cleaner | Cleaning log generated successfully
+2026-02-24 23:16:28,490 | INFO | src.validator | Stage 3: Validation started
+2026-02-24 23:16:28,610 | INFO | src.validator | Stage 3: Validation completed
+2026-02-24 23:16:28,614 | INFO | src.masker | Stage 5: Masking started
+2026-02-24 23:16:28,686 | INFO | src.masker | Stage 5: Masking completed
+2026-02-24 23:16:28,846 | INFO | src.masker | Masked sample report generated
+2026-02-24 23:16:28,951 | INFO | src.orchestrator | Pipeline execution report generated
+2026-02-24 23:16:28,955 | INFO | src.orchestrator | Pipeline execution completed

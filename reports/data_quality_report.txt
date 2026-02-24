@@ -1,0 +1,59 @@
+DATA QUALITY PROFILE REPORT
+===========================
+
+COMPLETENESS:
+- customer_id: 100.0% (0 missing)
+- first_name: 90.0% (1 missing)
+- last_name: 90.0% (1 missing)
+- email: 100.0% (0 missing)
+- phone: 100.0% (0 missing)
+- date_of_birth: 100.0% (0 missing)
+- address: 90.0% (1 missing)
+- income: 90.0% (1 missing)
+- account_status: 90.0% (1 missing)
+- created_date: 90.0% (1 missing)
+
+DATA TYPES:
+- customer_id: INT OK
+- first_name: STRING OK
+- last_name: STRING OK
+- email: STRING OK
+- phone: STRING OK
+- date_of_birth: STRING X (should be DATE)
+- address: STRING OK
+- income: STRING X (should be FLOAT)
+- account_status: STRING OK
+- created_date: STRING X (should be DATE)
+
+QUALITY ISSUES:
+1. 1 rows have missing first_name = 10.0% incomplete
+   Examples: Rows: [2]
+2. 1 rows have missing last_name = 10.0% incomplete
+   Examples: Rows: [4]
+3. 1 rows have missing address = 10.0% incomplete
+   Examples: Rows: [8]
+4. 1 rows have missing income = 10.0% incomplete
+   Examples: Rows: [2]
+5. 1 rows have missing account_status = 10.0% incomplete
+   Examples: Rows: [3]
+6. 1 rows have missing created_date = 10.0% incomplete
+   Examples: Rows: [1]
+7. date_of_birth detected as STRING but expected DATE
+   Examples: Detected dtype: object
+8. income detected as STRING but expected FLOAT
+   Examples: Detected dtype: object
+9. created_date detected as STRING but expected DATE
+   Examples: Detected dtype: object
+10. 1 rows contain invalid account_status values
+   Examples: Rows: [1]
+11. 1 invalid values found in date_of_birth
+   Examples: Rows: [5]
+12. 1 invalid values found in created_date
+   Examples: Rows: [9]
+13. 1 rows contain non-numeric income values
+   Examples: Rows: [1]
+
+SEVERITY:
+- Critical (blocks processing): 3
+- High (data incorrect): 10
+- Medium (needs cleaning): 0

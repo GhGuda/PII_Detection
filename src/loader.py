@@ -7,12 +7,12 @@ import pandas as pd
 import time
 import signal
 from pathlib import Path
-from typing import Optional
 
 from config.settings import MAX_RETRIES, RETRY_BACKOFF_SECONDS, LOAD_TIMEOUT_SECONDS
 from src.logger import setup_logger
 
 logger = setup_logger(__name__)
+SIGALRM_AVAILABLE = hasattr(signal, "SIGALRM") and hasattr(signal, "alarm")
 
 
 class TimeoutException(Exception):
@@ -48,15 +48,28 @@ def load_csv(file_path: Path) -> pd.DataFrame:
     attempt = 0
 
     while attempt < MAX_RETRIES:
+        use_alarm_timeout = SIGALRM_AVAILABLE
+
         try:
-            signal.signal(signal.SIGALRM, timeout_handler)
-            signal.alarm(LOAD_TIMEOUT_SECONDS)
+            if use_alarm_timeout:
+                signal.signal(signal.SIGALRM, timeout_handler)
+                signal.alarm(LOAD_TIMEOUT_SECONDS)
+            elif attempt == 0:
+                logger.warning(
+                    "signal.SIGALRM is unavailable on this platform; "
+                    "load timeout is disabled."
+                )
 
             logger.info(f"Attempting to load file (Attempt {attempt + 1})")
 
             df = pd.read_csv(file_path)
-
-            signal.alarm(0)  # Cancel alarm
+            normalized_columns = [
+                col.strip() if isinstance(col, str) else col
+                for col in df.columns
+            ]
+            if list(df.columns) != normalized_columns:
+                logger.warning("Normalized CSV column names by trimming whitespace.")
+                df.columns = normalized_columns
 
             logger.info(
                 f"Successfully loaded file: {file_path} "
@@ -80,5 +93,9 @@ def load_csv(file_path: Path) -> pd.DataFrame:
                 raise
 
             time.sleep(RETRY_BACKOFF_SECONDS * attempt)
+
+        finally:
+            if use_alarm_timeout:
+                signal.alarm(0)  # Cancel alarm on success/failure
 
     raise Exception("Unexpected loader failure.")

@@ -26,7 +26,7 @@ def run_load_stage():
     logger.info("Stage 1: LOAD completed successfully")
 
     print("Stage 1: LOAD")
-    print(f"✓ Loaded customers_raw.csv")
+    print("[OK] Loaded customers_raw.csv")
     print(f"- {df.shape[0]} rows, {df.shape[1]} columns")
 
     return df
@@ -38,4 +38,4 @@ def run_profiling_stage(df):
     """
     generate_data_quality_report(df)
     print("Stage 2: PROFILING")
-    print("✓ Data quality report generated")
+    print("[OK] Data quality report generated")

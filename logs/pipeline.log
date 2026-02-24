@@ -3,4 +3,76 @@
 2026-02-24 15:06:12,372 | ERROR | src.loader | Error loading file (Attempt 2): module 'signal' has no attribute 'SIGALRM'
 2026-02-24 15:06:16,374 | ERROR | src.loader | Error loading file (Attempt 3): module 'signal' has no attribute 'SIGALRM'
 2026-02-24 15:06:16,374 | CRITICAL | src.loader | Max retries reached. Aborting load.
-2026-02-24 15:06:16,374 | CRITICAL | __main__ | Pipeline failed: module 'signal' has no attribute 'SIGALRM'
+2026-02-24 15:06:16,374 | CRITICAL | __main__ | Pipeline failed: module 'signal' has no attribute 'SIGALRM'2026-02-24 15:34:13,044 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 15:34:13,044 | ERROR | src.loader | Error loading file (Attempt 1): module 'signal' has no attribute 'SIGALRM'
+2026-02-24 15:34:15,045 | ERROR | src.loader | Error loading file (Attempt 2): module 'signal' has no attribute 'SIGALRM'
+2026-02-24 15:34:19,046 | ERROR | src.loader | Error loading file (Attempt 3): module 'signal' has no attribute 'SIGALRM'
+2026-02-24 15:34:19,047 | CRITICAL | src.loader | Max retries reached. Aborting load.
+2026-02-24 15:34:19,047 | CRITICAL | __main__ | Pipeline failed: module 'signal' has no attribute 'SIGALRM'
+2026-02-24 15:37:25,724 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 15:37:25,725 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 15:37:25,795 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 15:37:53,189 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 15:37:53,189 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 15:37:53,189 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 15:37:53,192 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 15:37:53,192 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 15:37:53,193 | CRITICAL | __main__ | Pipeline failed: 'charmap' codec can't encode character '\u2713' in position 0: character maps to <undefined>
+2026-02-24 15:38:51,914 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 15:38:51,915 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 15:38:51,915 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 15:38:51,918 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 15:38:51,918 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 15:38:51,918 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 15:38:51,942 | CRITICAL | __main__ | Pipeline failed: 'phone'
+2026-02-24 15:39:29,836 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 15:39:29,836 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 15:39:29,840 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 15:40:38,897 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 15:40:38,897 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 15:40:38,898 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 15:40:38,903 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 15:40:38,903 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 15:40:38,904 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 15:40:38,907 | CRITICAL | __main__ | Pipeline failed: 'phone'
+2026-02-24 15:45:15,366 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 15:45:15,366 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 15:45:15,367 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 15:45:15,371 | WARNING | src.loader | Normalized CSV column names by trimming whitespace.
+2026-02-24 15:45:15,371 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 15:45:15,371 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 15:45:15,372 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 15:45:15,388 | CRITICAL | __main__ | Pipeline failed: '<' not supported between instances of 'str' and 'int'
+2026-02-24 15:48:19,204 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 15:48:19,204 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 15:48:19,205 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 15:48:19,211 | WARNING | src.loader | Normalized CSV column names by trimming whitespace.
+2026-02-24 15:48:19,213 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 15:48:19,214 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 15:48:19,215 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 15:48:19,236 | INFO | src.profiler | Stage 2: Profiling completed
+2026-02-24 15:48:19,236 | INFO | src.profiler | Report generated at C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\reports\data_quality_report.txt
+2026-02-24 16:02:18,751 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 16:02:18,751 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 16:02:18,752 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 16:02:18,788 | WARNING | src.loader | Normalized CSV column names by trimming whitespace.
+2026-02-24 16:02:18,788 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 16:02:18,788 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 16:02:18,789 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 16:02:18,810 | CRITICAL | __main__ | Pipeline failed: '<' not supported between instances of 'str' and 'int'
+2026-02-24 16:05:37,940 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 16:05:37,941 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 16:05:37,942 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 16:05:37,948 | WARNING | src.loader | Normalized CSV column names by trimming whitespace.
+2026-02-24 16:05:37,949 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 16:05:37,949 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 16:05:37,950 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 16:05:37,970 | INFO | src.profiler | Stage 2: Profiling completed successfully
+2026-02-24 16:08:17,693 | INFO | src.pipeline | Stage 1: LOAD started
+2026-02-24 16:08:17,694 | WARNING | src.loader | signal.SIGALRM is unavailable on this platform; load timeout is disabled.
+2026-02-24 16:08:17,695 | INFO | src.loader | Attempting to load file (Attempt 1)
+2026-02-24 16:08:17,700 | WARNING | src.loader | Normalized CSV column names by trimming whitespace.
+2026-02-24 16:08:17,701 | INFO | src.loader | Successfully loaded file: C:\Users\MelchizedekTettehNar\OneDrive - AmaliTech gGmbH\Desktop\PII_Detection_Pipeline\data\customers_raw.csv (10 rows, 10 columns)
+2026-02-24 16:08:17,701 | INFO | src.pipeline | Stage 1: LOAD completed successfully
+2026-02-24 16:08:17,702 | INFO | src.profiler | Stage 2: Profiling started
+2026-02-24 16:08:17,737 | INFO | src.profiler | Stage 2: Profiling completed successfully

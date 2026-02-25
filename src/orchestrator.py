@@ -10,7 +10,6 @@ from src.logger import setup_logger
 from src.pipeline import (
     run_load_stage,
     run_profiling_stage,
-    run_validation_stage,
     run_cleaning_stage,
     run_masking_stage,
     run_pii_detection_stage
